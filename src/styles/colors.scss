@@ -1,0 +1,113 @@
+:root {
+  --color-primary-main: #635fc7;
+  --color-primary-main-content: #635fc7;
+  --color-primary-main-bglight: #635fc7;
+  --color-primary-main-bgdark: #635fc7;
+
+  --color-primary-main-hover: #a8a4ff;
+  --color-primary-main-hover-content: #a8a4ff;
+  --color-primary-main-hover-bglight: #a8a4ff;
+  --color-primary-main-hover-bgdark: #a8a4ff;
+
+  --color-neutral-darkest: #000112;
+  --color-neutral-darkest-content: #000112;
+  --color-neutral-darkest-bglight: #000112;
+  --color-neutral-darkest-bgdark: #000112;
+
+  --color-neutral-darker: #20212c;
+  --color-neutral-darker-content: #20212c;
+  --color-neutral-darker-bglight: #20212c;
+  --color-neutral-darker-bgdark: #20212c;
+
+  --color-neutral-dark: #2b2c37;
+  --color-neutral-dark-content: #2b2c37;
+  --color-neutral-dark-bglight: #2b2c37;
+  --color-neutral-dark-bgdark: #2b2c37;
+
+  --color-neutral-medium-dark: #3e3f4e;
+  --color-neutral-medium-dark-content: #3e3f4e;
+  --color-neutral-medium-dark-bglight: #3e3f4e;
+  --color-neutral-medium-dark-bgdark: #3e3f4e;
+
+  --color-neutral-medium-light: #828fa3;
+  --color-neutral-medium-light-content: #828fa3;
+  --color-neutral-medium-light-bglight: #828fa3;
+  --color-neutral-medium-light-bgdark: #828fa3;
+
+  --color-neutral-light: #e4ebfa;
+  --color-neutral-light-content: #e4ebfa;
+  --color-neutral-light-bglight: #e4ebfa;
+  --color-neutral-light-bgdark: #e4ebfa;
+
+  --color-neutral-lighter: #f4f7fd;
+  --color-neutral-lighter-content: #f4f7fd;
+  --color-neutral-lighter-bglight: #f4f7fd;
+  --color-neutral-lighter-bgdark: #f4f7fd;
+
+  --color-neutral-lightest: #ffffff;
+  --color-neutral-lightest-content: #ffffff;
+  --color-neutral-lightest-bglight: #ffffff;
+  --color-neutral-lightest-bgdark: #ffffff;
+
+  --color-warning: #ea5555;
+  --color-warning-content: #ea5555;
+  --color-warning-bglight: #ea5555;
+  --color-warning-bgdark: #ea5555;
+
+  --color-warning-hover: #ff9898;
+  --color-warning-hover-content: #ff9898;
+  --color-warning-hover-bglight: #ff9898;
+  --color-warning-hover-bgdark: #ff9898;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary-main-content: #ffffff;
+    --color-primary-main-bglight: #2b2c37;
+    --color-primary-main-bgdark: #20212c;
+
+    --color-primary-main-hover-content: #ffffff;
+    --color-primary-main-hover-bglight: #2b2c37;
+    --color-primary-main-hover-bgdark: #20212c;
+
+    --color-neutral-darkest-content: #ffffff;
+    --color-neutral-darkest-bglight: #2b2c37;
+    --color-neutral-darkest-bgdark: #20212c;
+
+    --color-neutral-darker-content: #ffffff;
+    --color-neutral-darker-bglight: #2b2c37;
+    --color-neutral-darker-bgdark: #20212c;
+
+    --color-neutral-dark-content: #ffffff;
+    --color-neutral-dark-bglight: #2b2c37;
+    --color-neutral-dark-bgdark: #20212c;
+
+    --color-neutral-medium-dark-content: #ffffff;
+    --color-neutral-medium-dark-bglight: #2b2c37;
+    --color-neutral-medium-dark-bgdark: #20212c;
+
+    --color-neutral-medium-light-content: #ffffff;
+    --color-neutral-medium-light-bglight: #2b2c37;
+    --color-neutral-medium-light-bgdark: #20212c;
+
+    --color-neutral-light-content: #ffffff;
+    --color-neutral-light-bglight: #2b2c37;
+    --color-neutral-light-bgdark: #20212c;
+
+    --color-neutral-lighter-content: #ffffff;
+    --color-neutral-lighter-bglight: #2b2c37;
+    --color-neutral-lighter-bgdark: #20212c;
+
+    --color-neutral-lightest-content: #ffffff;
+    --color-neutral-lightest-bglight: #2b2c37;
+    --color-neutral-lightest-bgdark: #20212c;
+
+    --color-warning-content: #ffffff;
+    --color-warning-bglight: #2b2c37;
+    --color-warning-bgdark: #20212c;
+
+    --color-warning-hover-content: #ffffff;
+    --color-warning-hover-bglight: #2b2c37;
+    --color-warning-hover-bgdark: #20212c;
+  }
+}
