@@ -1,7 +1,5 @@
+import PageContainer from "./page.container";
+
 export default function Home() {
-  return (
-    <div>
-      <p>Main Page</p>
-    </div>
-  );
+  return <PageContainer />;
 }
