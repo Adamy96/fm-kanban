@@ -1,0 +1,27 @@
+.pageContainer {
+  font-family: var(--font-family-primary);
+
+  .xl {
+    font-size: var(--font-size-xl);
+  }
+
+  .lg {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+  }
+
+  .md {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+  }
+
+  .sm {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+  }
+
+  .xs {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-xs);
+  }
+}
